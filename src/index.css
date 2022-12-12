@@ -1,13 +1,58 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: darkslategrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 70vw;
+    text-align: center;
+
+}
+.contador{
+    background-color: whitesmoke;
+    border: 2px outset gray;
+    border-radius: 4px;
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.button{
+    border: 2px outset gray;
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: whitesmoke;
+    width: 100%;
+    font-family: monospace;
+    font-size: 20px;
+}
+.button:hover{
+    transform: scale(1.04);
+}
+.button-click{
+    background-color: forestgreen;
+}
+.button-borrar{
+    background-color: crimson;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media screen and (min-width:578px) {
+    .App{
+        width: 30vw;
+    }
 }

@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Contador from "./components/contador";
+import Boton from "./components/boton";
+import React from "react";
 
 function App() {
+  let [valor, setValor] = React.useState(0);
+  if(valor<0){
+    setValor(0)
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Counter clicks</h1>
+      <Contador clase="contador" valor={valor} />
+      <div className="botones">
+        <Boton className="button" nombre="Aumentar" metodo={()=>setValor(valor +1)}></Boton>
+        <Boton nombre="restar"metodo={()=>setValor(valor-1)} ></Boton>
+        <Boton nombre="Borrar" borrar={true} metodo={()=>setValor(0)} ></Boton>
+      </div>
+
     </div>
   );
 }
