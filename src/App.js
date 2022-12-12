@@ -12,7 +12,7 @@ function App() {
       <h1>Counter clicks</h1>
       <Contador clase="contador" valor={valor} />
       <div className="botones">
-        <Boton className="button" nombre="Aumentar" metodo={()=>setValor(valor +1)}></Boton>
+        <Boton nombre="sumar" metodo={()=>setValor(valor +1)}></Boton>
         <Boton nombre="restar"metodo={()=>setValor(valor-1)} ></Boton>
         <Boton nombre="Borrar" borrar={true} metodo={()=>setValor(0)} ></Boton>
       </div>
