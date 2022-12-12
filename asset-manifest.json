@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/%7BContador-react%7D/static/css/main.75a93234.css",
+    "main.js": "/%7BContador-react%7D/static/js/main.0f8953ba.js",
+    "index.html": "/%7BContador-react%7D/index.html",
+    "main.75a93234.css.map": "/%7BContador-react%7D/static/css/main.75a93234.css.map",
+    "main.0f8953ba.js.map": "/%7BContador-react%7D/static/js/main.0f8953ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75a93234.css",
+    "static/js/main.0f8953ba.js"
+  ]
+}
