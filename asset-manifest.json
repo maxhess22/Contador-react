@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Contador-react/static/css/main.afc3b5e8.css",
-    "main.js": "/Contador-react/static/js/main.9529f6ee.js",
-    "index.html": "/Contador-react/index.html",
-    "main.afc3b5e8.css.map": "/Contador-react/static/css/main.afc3b5e8.css.map",
-    "main.9529f6ee.js.map": "/Contador-react/static/js/main.9529f6ee.js.map"
+    "main.css": "/%7BContador-react%7D/static/css/main.afc3b5e8.css",
+    "main.js": "/%7BContador-react%7D/static/js/main.9529f6ee.js",
+    "index.html": "/%7BContador-react%7D/index.html",
+    "main.afc3b5e8.css.map": "/%7BContador-react%7D/static/css/main.afc3b5e8.css.map",
+    "main.9529f6ee.js.map": "/%7BContador-react%7D/static/js/main.9529f6ee.js.map"
   },
   "entrypoints": [
     "static/css/main.afc3b5e8.css",
