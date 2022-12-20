@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Contador-react/static/css/main.ddaff3df.css",
+    "main.css": "/Contador-react/static/css/main.a1f77398.css",
     "main.js": "/Contador-react/static/js/main.2082455b.js",
     "index.html": "/Contador-react/index.html",
-    "main.ddaff3df.css.map": "/Contador-react/static/css/main.ddaff3df.css.map",
+    "main.a1f77398.css.map": "/Contador-react/static/css/main.a1f77398.css.map",
     "main.2082455b.js.map": "/Contador-react/static/js/main.2082455b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddaff3df.css",
+    "static/css/main.a1f77398.css",
     "static/js/main.2082455b.js"
   ]
 }
